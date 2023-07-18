@@ -1,0 +1,32 @@
+.card-modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.7s;
+  pointer-events: none;
+}
+.card-modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.card-modal__content {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #282e33;
+  transform: scale(0.5);
+  transition: 0.6s all;
+}
+.card-modal__content.active {
+  transform: scale(1);
+}
+.card-modal .task-modal {
+  min-width: 600px;
+  min-height: 90vh;
+}

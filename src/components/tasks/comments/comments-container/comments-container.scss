@@ -1,0 +1,48 @@
+.comment {
+  &__title {
+    position: relative;
+    color: #b6c2cf;
+    margin-bottom: 20px;
+  }
+  &__title span {
+    position: absolute;
+    left: -35px;
+    top: 0;
+  }
+  &__new {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  &__add {
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 10px;
+    background-color: #38414a;
+    color: #b6c2cf;
+  }
+
+  &__form p:hover {
+    background-color: #4e5c6b;
+  }
+  &__icon {
+    background-color: #38414a;
+    position: absolute;
+    top: -3px;
+    border: 1px solid black;
+    border-radius: 27px;
+    padding: 10px;
+    left: -56px;
+    width: 47px;
+    height: 47px;
+  }
+  &__avatar {
+    display: block;
+    background-image: url("../../../../../public/img/user.png");
+    background-size: contain;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,36 @@
+.status {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+
+  &__title {
+    font-size: 16px;
+    padding: 5px 5px 1px 5px;
+    border-bottom: 1px solid #b6c2cf;
+    cursor: pointer;
+  }
+  &__title:hover {
+    transform: scale(1.1);
+  }
+
+  &__input {
+    text-align: center;
+    /*  */
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 7px;
+    /*  */
+    background-color: inherit;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #b6c2cf;
+    border: 1px solid transparent;
+  }
+  &__input:focus {
+    border: 1px solid rgb(70, 76, 240);
+    border-radius: 5px;
+    background-color: #4a5662;
+  }
+}

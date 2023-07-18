@@ -1,0 +1,23 @@
+.task {
+  padding: 20px;
+
+  &__container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  &__close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 9px;
+    padding: 7px 12px;
+    font-size: 25px;
+    z-index: 2;
+    border: none;
+    border-radius: 10px;
+    background-color: inherit;
+    transition: background-color 85ms, color 85ms;
+    color: #101204;
+    cursor: pointer;
+  }
+}

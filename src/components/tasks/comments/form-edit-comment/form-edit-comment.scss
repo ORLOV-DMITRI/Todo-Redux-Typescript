@@ -1,0 +1,33 @@
+.form-edit {
+  width: 100%;
+}
+.form-edit textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #38414a;
+  color: #b6c2cf;
+  resize: none;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  overflow: hidden;
+}
+.form-edit button {
+  background-color: inherit;
+  color: #b6c2cf99;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  line-height: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.form-edit__author {
+  color: #b6c2cf;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}

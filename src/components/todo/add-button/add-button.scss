@@ -1,0 +1,27 @@
+.todo__btn-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /*  */
+  width: 90%;
+  gap: 5px;
+  margin-top: 15px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 8px;
+  /*  */
+  color: #9fadbc;
+  font-size: 14px;
+  transition: 0.3s;
+  background-color: #101204;
+  border: none;
+  cursor: pointer;
+}
+.todo__btn-icon {
+  font-size: 20px;
+  line-height: 24px;
+}
+.todo__btn-add:hover {
+  background-color: #a6c5e229;
+  color: #9fadbc;
+}

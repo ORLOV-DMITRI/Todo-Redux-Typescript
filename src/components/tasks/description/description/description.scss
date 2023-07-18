@@ -1,0 +1,94 @@
+.description__form {
+  min-height: 120px;
+}
+.description__info {
+  position: relative;
+  color: #b6c2cf;
+}
+.description__info span {
+  position: absolute;
+  left: -35px;
+}
+.description__add {
+  padding: 10px 0;
+}
+.description__edit {
+  padding: 10px 0;
+}
+.description__textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #38414a;
+  color: #b6c2cf;
+  resize: none;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+}
+.description__textarea::placeholder {
+  color: #b6c2cf;
+}
+.description__add button {
+  background-color: #579dff;
+  color: #1d2125;
+  padding: 6px 12px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  line-height: 18px;
+}
+.description__text p {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #38414a;
+
+  font-size: 14px;
+}
+.description__text {
+  padding: 10px 0;
+}
+
+.description__btn-remove,
+.description__btn-edit {
+  background-color: inherit;
+  color: #b6c2cf99;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  line-height: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.description__btn-done {
+  background-color: #579dff;
+  color: #1d2125;
+  padding: 6px 12px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  line-height: 17px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.description__btn-done:hover {
+  background-color: #85b8ff;
+}
+.description__btn-cancel {
+  background-color: inherit;
+  color: #b6c2cf;
+  padding: 6px 12px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  line-height: 18px;
+  cursor: pointer;
+}
+.description__btn-cancel:hover {
+  background-color: #a6c5e229;
+}
